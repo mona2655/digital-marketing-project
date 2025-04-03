@@ -1,24 +1,24 @@
-
-
 import './App.css'
-import AddToCartBtn from './components/AddToCartBtn'
-import RemoveToCart from './components/RemoveToCart'
-import TotalCartValue from './components/TotalCartValue'
-import ProductList from './components/ProductList'
+import Cart from './componenet/Cart'
+import ProductList from './componenet/ProductList'
+import Remove from './componenet/Remove'
+import TotalItem from './componenet/TotalItem'
+
 
 function App() {
   
 
   return (
     <>
-
-
-<TotalCartValue/>
-<ProductList/>
-
+    
+     {/* <Remove/> */}
+     <TotalItem/>
+     <ProductList/>
 
       </>
   )
 }
 
 export default App
+
+
